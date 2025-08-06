@@ -23,7 +23,7 @@ adv_mla_lab_1/
    ```bash
    curl -sSL https://install.python-poetry.org | python3 -
 
-	3.	Activate the environment:
+3.	Activate the environment:
 
 cd adv_mla_lab_1
 pyenv local 3.11.4
