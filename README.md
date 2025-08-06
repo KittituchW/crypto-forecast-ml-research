@@ -5,14 +5,16 @@ It aims to predict whether a college basketball player will be drafted into the 
 
 ## Project Structure
 
-This project follows the Cookiecutter Data Science structure:
+<pre>
 adv_mla_lab_1/
-├── data/              # Raw and processed data files (not tracked by git)
-├── models/            # Trained models
-├── notebooks/         # Experiment notebooks (see naming format below)
-├── github.txt         # Link to this repo (for submission)
-├── pyproject.toml     # Poetry environment and dependencies
-└── README.md          # You’re reading this file
+├── data/             ← Raw and processed data files (not tracked by git)
+├── models/           ← Trained models
+├── notebooks/        ← Experiment notebooks
+├── github.txt        ← Link to this repo (for submission)
+├── pyproject.toml    ← Poetry environment and dependencies
+└── README.md         ← You’re reading this file
+</pre>
+
 
 ## Environment Setup
 
