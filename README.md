@@ -1,61 +1,72 @@
-# adv_mla_lab_1
+# AMLA_AT1_Group3: NBA Draft Prediction
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+This project is part of the 36120 Advanced Machine Learning Application subject at UTS (Spring 2025).  
+It aims to predict whether a college basketball player will be drafted into the NBA based on player statistics.
 
-Advanced Machine Learning AT1
+## Project Structure
 
-## Project Organization
+This project follows the Cookiecutter Data Science structure:
+adv_mla_lab_1/
+├── data/              # Raw and processed data files (not tracked by git)
+├── models/            # Trained models
+├── notebooks/         # Experiment notebooks (see naming format below)
+├── github.txt         # Link to this repo (for submission)
+├── pyproject.toml     # Poetry environment and dependencies
+└── README.md          # You’re reading this file
 
-```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default mkdocs project; see www.mkdocs.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         adv_mla_lab_1 and configuration for tools like black
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── adv_mla_lab_1   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes adv_mla_lab_1 a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
-```
+## Environment Setup
 
---------
+1. Install Python 3.11.4 using pyenv
 
+2. Install Poetry if not already installed:
+
+   ```bash
+   curl -sSL https://install.python-poetry.org | python3 -
+
+	3.	Activate the environment:
+
+cd adv_mla_lab_1
+pyenv local 3.11.4
+poetry install
+poetry shell
+
+
+
+Notebooks
+
+All experiments are saved in the notebooks/ folder.
+
+Naming convention:
+
+36120-25SP-group3-<student_id>-AT1-experiment_<number>.ipynb
+
+Example:
+
+36120-25SP-group3-149874-AT1-experiment_1.ipynb
+
+Python Version and Dependencies
+	•	Python 3.11.4
+	•	scikit-learn 1.5.1
+	•	pandas 2.2.2
+	•	jupyterlab 4.2.3
+	•	joblib 1.4.2
+	•	xgboost 2.1.0
+	•	hyperopt 0.2.7
+	•	lightgbm 4.4.0
+	•	lime 0.2.0.1
+	•	wandb 0.17.4
+
+All dependencies are listed in pyproject.toml.
+
+Submission Notes
+
+This GitHub repository is used for experimentation and group work.
+Each group member also maintains a separate private repository for their custom Python package, which is published to TestPyPI.
+
+GitHub Link
+
+Repository URL: https://github.com/KittituchW/AMLA_AT1_Group3
+
+---
+
+Let me know once you've saved it. I can help you commit and push it to GitHub next.
