@@ -26,27 +26,25 @@ adv_mla_lab_1/
    curl -sSL https://install.python-poetry.org | python3 -
 
 3.	Activate the environment:
+   
+   ```bash
+	cd adv_mla_lab_1
+	pyenv local 3.11.4
+	poetry install
+	poetry shell
+```
 
-cd adv_mla_lab_1
-pyenv local 3.11.4
-poetry install
-poetry shell
-
-
-
-Notebooks
+## Notebooks
 
 All experiments are saved in the notebooks/ folder.
 
-Naming convention:
+### Naming Convention
+```bash
+36120-25SP-group3-<student_id>-AT1-experiment_<n>.ipynb
+```
 
-36120-25SP-group3-<student_id>-AT1-experiment_<number>.ipynb
 
-Example:
-
-36120-25SP-group3-149874-AT1-experiment_1.ipynb
-
-Python Version and Dependencies
+## Python Version and Dependencies
 	•	Python 3.11.4
 	•	scikit-learn 1.5.1
 	•	pandas 2.2.2
