@@ -26,3 +26,8 @@ lime = "0.2.0.1"
 wandb = "0.17.4"
 
 
+[[tool.poetry.source]]
+name = "test-pypi"
+url = "https://test.pypi.org/simple/"
+priority = "explicit"
+
