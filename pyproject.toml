@@ -24,6 +24,7 @@ hyperopt = "0.2.7"
 lightgbm = "4.4.0"
 lime = "0.2.0.1"
 wandb = "0.17.4"
+my-krml-25400603 = {version = "^2025.0.12", source = "test-pypi"}
 
 
 [[tool.poetry.source]]
