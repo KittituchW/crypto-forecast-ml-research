@@ -48,7 +48,7 @@ AMLA_AT3_GROUP13/
 ├─ Makefile
 ├─ github.txt # private repo link
 └─ README.md
-'''
+```
 ---
 
 ## ⚙️ 4. Requirements
