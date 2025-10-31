@@ -30,6 +30,7 @@ Each group member contributed a model using a specific **algorithm** and **crypt
 ---
 
 ## 3. Repository Structure
+```bash
 ---
 AMLA_AT3_GROUP13/
 ├─ data/
@@ -47,7 +48,7 @@ AMLA_AT3_GROUP13/
 ├─ Makefile
 ├─ github.txt # private repo link
 └─ README.md
-
+'''
 ---
 
 ## ⚙️ 4. Requirements
