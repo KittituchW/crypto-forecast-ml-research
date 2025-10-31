@@ -24,14 +24,13 @@ Each group member contributed a model using a specific **algorithm** and **crypt
 | **Feature Engineering** | Generated time-based, trend, and volatility features for model training. |
 | **Model Training** | Each member trained and tuned a model for their chosen cryptocurrency. |
 | **Model Integration** | Best-performing models saved as artefacts (`.joblib`) and loaded in Streamlit. |
-| **Explainability** | Used **LIME** to explain predictions at the feature level. |
 | **Visualization** | Implemented interactive charts for model results and historical analysis. |
 | **Deployment** | Streamlit frontend and FastAPI backend integrated for real-time predictions. |
 
 ---
 
 ## 3. Repository Structure
-
+---
 AMLA_AT3_GROUP13/
 ├─ data/
 │ ├─ raw/ # original OHLCV data
@@ -49,7 +48,7 @@ AMLA_AT3_GROUP13/
 ├─ github.txt # private repo link
 └─ README.md
 
-
+---
 
 ## ⚙️ 4. Requirements
 
@@ -68,3 +67,4 @@ The assignment requires these versions:
 - wandb **0.17.4**
 
 
+---
