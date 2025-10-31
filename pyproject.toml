@@ -3,9 +3,9 @@ requires = ["poetry-core>=1.9.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "AMLA_AT3_Group13"
+name = "amla_at3_Group13"
 version = "0.0.1"
-description = "Advanced Machine Assignment 3"
+description = "Advanced Machine Learning Assignment 3"
 authors = ["Kittituch"]
 readme = "README.md"
 package-mode = false
@@ -24,5 +24,12 @@ hyperopt = "0.2.7"
 lightgbm = "4.4.0"
 lime = "0.2.0.1"
 wandb = "0.17.4"
+matplotlib = "3.10.7"
+seaborn = "0.13.2"
+adv-mla-at1-25544646 = {version = "^2025.3.3", source = "testpypi"}
 
 
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+priority = "explicit"
