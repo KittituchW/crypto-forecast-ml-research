@@ -25,7 +25,7 @@ This ensures:
 * Clean temporal validation
 
 <p align="center">
-  <img src="figures/Rationale for Using Day +2 as Target.png" width="850">
+  <img src="reports/figures/Rationale for Using Day +2 as Target.png" width="850">
 </p>
 
 ## End-to-End System Architecture
@@ -33,7 +33,7 @@ This ensures:
 The data product follows a modular architecture separating the research layer, model serving layer, and presentation layer.
 
 <p align="center">
-  <img src="figures/Model Deployment Architecture.png" width="900">
+  <img src="reports/figures/Model Deployment Architecture.png" width="900">
 </p>
 
 **Pipeline Flow**
@@ -52,7 +52,7 @@ The data product follows a modular architecture separating the research layer, m
 Each model API is packaged as a Docker container to ensure dependency isolation, reproducibility, portability, and environment consistency.
 
 <p align="center">
-  <img src="figures/Docker.png" width="850">
+  <img src="reports/figures/Docker.png" width="850">
 </p>
 
 **FastAPI Deployment on Render**
@@ -65,7 +65,7 @@ Inference services are hosted on Render with:
 * Scalable infrastructure
 
 <p align="center">
-  <img src="figures/Render.png" width="850">
+  <img src="reports/figures/Render.png" width="850">
 </p>
 
 ## Interactive Web Application
@@ -78,7 +78,7 @@ The Streamlit frontend provides:
 * Model performance comparison dashboard
 
 <p align="center">
-  <img src="figures/Chart Visualization Tab.png" width="900">
+  <img src="reports/figures/Chart Visualization Tab.png" width="900">
 </p>
 
 ## Repository Ecosystem
